@@ -1,7 +1,5 @@
 def print_params(a = 1, b = 'строка', c = True):
-    print(a)
-    print(b)
-    print(c)
+    print (a, b, c)
 
 values_list = [1,True,"Yes"]
 values_dict = {'a': 4,'b': "good",'c': False}
